@@ -3,7 +3,6 @@ export default {
   preprocess: [
     preprocess({
       postcss: true,
-    }),
-    switchCase()
+    })
   ],
 }
