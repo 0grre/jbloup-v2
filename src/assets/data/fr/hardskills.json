@@ -1,0 +1,93 @@
+{
+  "title": "mes compétences",
+  "quote": "(niveau, intermédiaire à débutant)",
+  "content": [
+    {
+      "title": "langages",
+      "list": [
+        {
+          "logo": "/src/assets/media/languages/php.png",
+          "name": "PHP",
+          "color": "text-php",
+          "lvl": "confirmé"
+        },
+        {
+          "logo": "/src/assets/media/languages/javascript.png",
+          "name": "javascript",
+          "color": "text-javascript",
+          "lvl": "intermédiaire"
+        },
+        {
+          "logo": "/src/assets/media/languages/java.png",
+          "name": "java",
+          "color": "text-ja",
+          "lvl": "débutant"
+        },
+        {
+          "logo": "/src/assets/media/languages/rust.png",
+          "name": "rust",
+          "color": "",
+          "lvl": "débutant"
+        }
+      ]
+    },
+    {
+      "title": "frameworks",
+      "list": [
+        {
+          "logo": "/src/assets/media/frameworks/laravel.png",
+          "name": "laravel",
+          "color": "text-laravel",
+          "lvl": "confirmé"
+        },
+        {
+          "logo": "/src/assets/media/frameworks/tailwindcss.png",
+          "name": "tailwind CSS",
+          "color": "text-tailwindcss",
+          "lvl": "confirmé"
+        },
+        {
+          "logo": "/src/assets/media/frameworks/wordpress.png",
+          "name": "wordpress",
+          "color": "",
+          "lvl": "confirmé"
+        },
+        {
+          "logo": "/src/assets/media/frameworks/vue.png",
+          "name": "vue",
+          "color": "text-vue",
+          "lvl": "intermédiaire"
+        }
+      ]
+    },
+    {
+      "title": "outils",
+      "list": [
+        {
+          "logo": "/src/assets/media/tools/docker.png",
+          "name": "docker",
+          "color": "text-docker",
+          "lvl": "confirmé"
+        },
+        {
+          "logo": "/src/assets/media/tools/macos.png",
+          "name": "mac OS",
+          "color": "text-macos",
+          "lvl": "confirmé"
+        },
+        {
+          "logo": "/src/assets/media/tools/git.png",
+          "name": "git",
+          "color": "text-git",
+          "lvl": "intermédaire"
+        },
+        {
+          "logo": "/src/assets/media/tools/kubernetes.png",
+          "name": "kubernetes",
+          "color": "text-kubernetes",
+          "lvl": "débutant"
+        }
+      ]
+    }
+  ]
+}

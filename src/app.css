@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Roboto&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: Roboto, sans-serif;
+  }
+  body {
+    background-image: url("./src/assets/media/grid.jpg");
+  }
+  h1 {
+    font-family: 'Nabla', cursive;
+  }
+}

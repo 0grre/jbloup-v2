@@ -1,0 +1,55 @@
+{
+  "title": "mes expériences",
+  "quote": "(un parcours atypique)",
+  "content": [
+    {
+      "logo": "/src/assets/media/logos/wokine.jpeg",
+      "job": "Développeur Backend PHP",
+      "date": "2021 / aujourd'hui",
+      "employer": "Wokine",
+      "localization": "Lille"
+    },
+    {
+      "logo": "/src/assets/media/logos/boresa.jpeg",
+      "job": "Consultant / Développeur",
+      "date": "2019 / 2021",
+      "employer": "Boresa",
+      "localization": "Arras"
+    },
+    {
+      "logo": "/src/assets/media/logos/cef.jpeg",
+      "job": "Commercial Sédentaire",
+      "date": "2019 / 2019",
+      "employer": "Centre Européen de Formation",
+      "localization": "Villeneuve d’ascq"
+    },
+    {
+      "logo": "/src/assets/media/logos/sncf.jpeg",
+      "job": "Conducteur de train",
+      "date": "2018 / 2019",
+      "employer": "SNCF Mobilité",
+      "localization": "Paris"
+    },
+    {
+      "logo": "/src/assets/media/logos/jussieu.jpeg",
+      "job": "Auxiliaire Ambulancier",
+      "date": "2017 / 2018",
+      "employer": "Cachera Jussieu Secours",
+      "localization": "Marquette en Ostrevent"
+    },
+    {
+      "logo": "/src/assets/media/logos/laposte.jpeg",
+      "job": "Livreur / Facteur",
+      "date": "2016 / 2017",
+      "employer": "La Poste",
+      "localization": "Hénin Beaumont"
+    },
+    {
+      "logo": "/src/assets/media/logos/wingles.jpg",
+      "job": "Animateur / Directeur",
+      "date": "2011 / 2016",
+      "employer": "Commune de Wingles",
+      "localization": "Wingles"
+    }
+  ]
+}
