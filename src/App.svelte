@@ -6,8 +6,6 @@
   import softskills_fr from "./assets/data/fr/softskills.json";
   import educations_fr from "./assets/data/fr/educations.json";
   import hobbies_fr from "./assets/data/fr/hobbies.json";
-  import mail_fr from "./assets/data/fr/mail.json";
-
 
   import hero_en from './assets/data/en/hero.json'
   import about_en from './assets/data/en/about.json'
@@ -16,7 +14,6 @@
   import softskills_en from "./assets/data/en/softskills.json";
   import educations_en from "./assets/data/en/educations.json";
   import hobbies_en from "./assets/data/en/hobbies.json";
-  import mail_en from "./assets/data/en/mail.json";
 
   import Menu from "./components/Menu.svelte";
   import Header from "./components/Header.svelte";
@@ -30,7 +27,6 @@
 
   let data = {
     isEnglish: false,
-    mail: mail_fr,
     hero: hero_fr,
     about: about_fr,
     hardskills: hardskills_fr,
@@ -53,7 +49,6 @@
     if (!data.isEnglish) {
       data = {
         isEnglish: true,
-        mail: mail_en,
         hero: hero_en,
         about: about_en,
         hardskills: hardskills_en,
@@ -65,7 +60,6 @@
     } else {
       data = {
         isEnglish: false,
-        mail: mail_fr,
         hero: hero_fr,
         about: about_fr,
         hardskills: hardskills_fr,
@@ -101,14 +95,14 @@
     </div>
     <!-- Page content here -->
     <section class="container max-w-4xl md:max-w-5xl px-12 md:px-24 mx-auto bg-black text-white border-x border-blue-50">
-      <Header hero={data.hero} menu={menu} mail={data.mail}/>
+      <Header hero={data.hero} menu={menu}/>
       <About about={data.about}/>
       <Hardskills hardskills={data.hardskills}/>
       <Experiences experiences={data.experiences}/>
       <Softskills softskills={data.softskills}/>
       <Educations educations={data.educations}/>
       <Hobbies hobbies={data.hobbies}/>
-      <Footer footer={data.hero} mail={data.mail}/>
+      <Footer footer={data.hero}/>
     </section>
   </div>
   <div class="drawer-side">
