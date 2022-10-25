@@ -3,49 +3,49 @@
   "quote": "(trés varié)",
   "content": [
     {
-      "logo": "/src/assets/media/schools/cesi.jpeg",
+      "logo": "media/schools/cesi.jpeg",
       "name": "Manager en Architecture et Applications Logicielles des Systèmes d’Information - (Bac +5)",
       "date": "2022 / 2024",
       "school": "CESI",
       "localization": "Lille"
     },
     {
-      "logo": "/src/assets/media/schools/cesi.jpeg",
+      "logo": "media/schools/cesi.jpeg",
       "name": "Responsable en Ingénierie des Logiciels - (Bac +3)",
       "date": "2021 / 2022",
       "school": "CESI",
       "localization": "Lille"
     },
     {
-      "logo": "/src/assets/media/schools/cesi.jpeg",
+      "logo": "media/schools/cesi.jpeg",
       "name": "Développeur Informatique - (Bac +2)",
       "date": "2019 / 2021",
       "school": "CESI",
       "localization": "Lille"
     },
     {
-      "logo": "/src/assets/media/schools/ifa.png",
+      "logo": "media/schools/ifa.png",
       "name": "Auxiliaire Ambulancier",
       "date": "2017 / 2017",
       "school": "IFA",
       "localization": "Lille"
     },
     {
-      "logo": "/src/assets/media/schools/artois.jpeg",
+      "logo": "media/schools/artois.jpeg",
       "name": "Licence de droit - (Bac+ 3)",
       "date": "2013 / 2016",
       "school": "Université d'Artois",
       "localization": "Douai"
     },
     {
-      "logo": "/src/assets/media/schools/lille.jpeg",
+      "logo": "media/schools/lille.jpeg",
       "name": "L1 : Licence cinématographique - (Bac +1)",
       "date": "2012 / 2013",
       "school": "Lille 3",
       "localization": "Villeneuve-d'Ascq"
     },
     {
-      "logo": "/src/assets/media/schools/saintpaul.jpg",
+      "logo": "media/schools/saintpaul.jpg",
       "name": "Baccalauréat STG Mercatique - (Mention Bien)",
       "date": "2009 / 2012",
       "school": "Lycée Saint Paul",
