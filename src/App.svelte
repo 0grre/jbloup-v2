@@ -1,5 +1,6 @@
 <script lang="ts">
   import hero_fr from './assets/data/fr/hero.json'
+  import projects_fr from './assets/data/fr/projects.json'
   import about_fr from './assets/data/fr/about.json'
   import hardskills_fr from './assets/data/fr/hardskills.json'
   import experiences_fr from "./assets/data/fr/experiences.json";
@@ -8,6 +9,7 @@
   import hobbies_fr from "./assets/data/fr/hobbies.json";
 
   import hero_en from './assets/data/en/hero.json'
+  import projects_en from './assets/data/en/projects.json'
   import about_en from './assets/data/en/about.json'
   import hardskills_en from './assets/data/en/hardskills.json'
   import experiences_en from "./assets/data/en/experiences.json";
@@ -28,6 +30,7 @@
   let data = {
     isEnglish: false,
     hero: hero_fr,
+    projects: projects_fr,
     about: about_fr,
     hardskills: hardskills_fr,
     experiences: experiences_fr,
@@ -50,23 +53,41 @@
       data = {
         isEnglish: true,
         hero: hero_en,
+        projects: projects_en,
         about: about_en,
         hardskills: hardskills_en,
         experiences: experiences_en,
         softskills: softskills_en,
         educations: educations_en,
         hobbies: hobbies_en
-      };
+      }
+      menu = {
+        about: data.about.title,
+        hardskills: data.hardskills.title,
+        experiences: data.experiences.title,
+        softskills: data.softskills.title,
+        educations: data.educations.title,
+        hobbies: data.hobbies.title,
+      }
     } else {
       data = {
         isEnglish: false,
         hero: hero_fr,
+        projects: projects_fr,
         about: about_fr,
         hardskills: hardskills_fr,
         experiences: experiences_fr,
         softskills: softskills_fr,
         educations: educations_fr,
         hobbies: hobbies_fr
+      }
+      menu = {
+        about: data.about.title,
+        hardskills: data.hardskills.title,
+        experiences: data.experiences.title,
+        softskills: data.softskills.title,
+        educations: data.educations.title,
+        hobbies: data.hobbies.title,
       }
     }
   }
@@ -77,13 +98,13 @@
   <div class="drawer-content">
     <div class="navbar fixed">
       <div class="flex-1">
-        {#if !data.isEnglish}
+        {#if data.isEnglish}
           <button class="ml-1 md:ml-3" on:click={switch_lang}>
-            <img class="w-6 md:w-12 border border-white" src="https://media.tenor.com/GNbGS1JPjzUAAAAC/french-flag-drapeau-francais.gif" alt="french flag">
+            <img class="w-6 md:w-12 border border-fluo" src="https://media.tenor.com/GNbGS1JPjzUAAAAC/french-flag-drapeau-francais.gif" alt="french flag">
           </button>
         {:else}
           <button class="ml-1 md:ml-3" on:click={switch_lang}>
-            <img class="w-6 md:w-12 border border-white" src="https://media.giphy.com/media/BNeHEw6y6l9IY/giphy.gif" alt="usa flag">
+            <img class="w-6 md:w-12 border border-fluo" src="https://media.giphy.com/media/BNeHEw6y6l9IY/giphy.gif" alt="usa flag">
           </button>
         {/if}
       </div>
@@ -94,8 +115,8 @@
       </div>
     </div>
     <!-- Page content here -->
-    <section class="container max-w-4xl md:max-w-5xl px-12 md:px-24 mx-auto bg-black text-white border-x border-blue-50">
-      <Header hero={data.hero} menu={menu}/>
+    <section class="container max-w-4xl md:max-w-5xl px-12 md:px-24 mx-auto border-x border-fluo">
+      <Header hero={data.hero} projects={data.projects}/>
       <About about={data.about}/>
       <Hardskills hardskills={data.hardskills}/>
       <Experiences experiences={data.experiences}/>

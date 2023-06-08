@@ -2,12 +2,10 @@
     import Menu from "./Menu.svelte";
 
     export let hero;
-    export let menu;
+    export let projects;
 </script>
 
-<section class="border-b border-dashed border-white overflow-y-hidden pb-12">
-    <img class="w-full" src="https://media.giphy.com/media/3LdREcrswFqgdbWV9z/giphy.gif" alt="computer">
-    <div class="divider"></div>
+<section class="border-b border-dashed border-fluo overflow-y-hidden pb-12">
     <div class="flex flex-row justify-between mt-12">
         <div>
             <h1 class="text-5xl font-bold py-6">{ hero.title }</h1>
@@ -51,16 +49,26 @@
             </div>
         </div>
     </div>
-    <p class="text-sm md:text-lg text-green-400 py-6">{ hero.subtitle }</p>
-    <h2 class="text-3xl font-bold py-6 normal-case font-open">{ hero.plan }</h2>
+</section>
+<section id="experiences" class="border-b border-dashed border-fluo py-12">
+    <h2 class="text-3xl font-bold py-6 normal-case">{ projects.title }</h2>
     <div class="flex flex-col md:flex-row justify-between">
         <ul class="menu w-full">
-            <Menu menu={menu}/>
+            {#each projects.content as project}
+                <li>
+                    <a class="capitalize text-sm md:text-lg" href={project.url} target="_blank">
+                <span class="material-symbols-outlined">
+                    arrow_right
+                </span>
+                        { project.title }
+                    </a>
+                </li>
+            {/each}
         </ul>
         <div class="flex flex-col justify-end">
-            <img class="border border-white w-44 md:w-72" src="https://media.giphy.com/media/L3pfVwbsJbrk4/giphy.gif"
+            <img class="border border-fluo w-44 md:w-72" src="https://media.giphy.com/media/L3pfVwbsJbrk4/giphy.gif"
                  alt="search on map">
         </div>
-
     </div>
 </section>
+

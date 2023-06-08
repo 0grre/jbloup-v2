@@ -1,54 +1,55 @@
+
 {
-  "title": "mon parcours scolaire",
-  "quote": "(trés varié)",
+  "title": "My Educational Background",
+  "quote": "(very diverse)",
   "content": [
     {
       "logo": "media/schools/cesi.jpeg",
-      "name": "Manager en Architecture et Applications Logicielles des Systèmes d’Information - (Bac +5)",
+      "name": "Manager in Architecture and Software Applications of Information Systems - (Bachelor degree +5)",
       "date": "2022 / 2024",
       "school": "CESI",
       "localization": "Lille"
     },
     {
       "logo": "media/schools/cesi.jpeg",
-      "name": "Responsable en Ingénierie des Logiciels - (Bac +3)",
+      "name": "Software Engineering Manager - (Bachelor degree +3)",
       "date": "2021 / 2022",
       "school": "CESI",
       "localization": "Lille"
     },
     {
       "logo": "media/schools/cesi.jpeg",
-      "name": "Développeur Informatique - (Bac +2)",
+      "name": "Computer Developer - (Bachelor degree +2)",
       "date": "2019 / 2021",
       "school": "CESI",
       "localization": "Lille"
     },
     {
       "logo": "media/schools/ifa.png",
-      "name": "Auxiliaire Ambulancier",
+      "name": "Ambulance Attendant",
       "date": "2017 / 2017",
       "school": "IFA",
       "localization": "Lille"
     },
     {
       "logo": "media/schools/artois.jpeg",
-      "name": "Licence de droit - (Bac+ 3)",
+      "name": "Law Degree - (Bachelor degree +3)",
       "date": "2013 / 2016",
-      "school": "Université d'Artois",
+      "school": "Artois University",
       "localization": "Douai"
     },
     {
       "logo": "media/schools/lille.jpeg",
-      "name": "L1 : Licence cinématographique - (Bac +1)",
+      "name": "Bachelor Degree in Film Studies - (Bachelor degree +1)",
       "date": "2012 / 2013",
       "school": "Lille 3",
       "localization": "Villeneuve-d'Ascq"
     },
     {
       "logo": "media/schools/saintpaul.jpg",
-      "name": "Baccalauréat STG Mercatique - (Mention Bien)",
+      "name": "Baccalaureate in Marketing Management - (With Honors)",
       "date": "2009 / 2012",
-      "school": "Lycée Saint Paul",
+      "school": "Saint Paul High School",
       "localization": "Lens"
     }
   ]

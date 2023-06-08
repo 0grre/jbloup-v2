@@ -49,7 +49,7 @@
         {
           "logo": "media/frameworks/wordpress.png",
           "name": "wordpress",
-          "color": "",
+          "color": "text-white",
           "lvl": "confirmé"
         },
         {

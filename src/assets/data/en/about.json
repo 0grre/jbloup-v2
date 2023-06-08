@@ -1,11 +1,11 @@
 {
-  "title": "qui suis je ?",
+  "title": "Who am I?",
   "content": {
-    "title": "Qui suis je ?",
+    "title": "Who am I?",
     "location": "Lille",
-    "age": "29 ans",
-    "company": "wokine",
-    "mobility": "véhiculé",
-    "text": "Self-taught, creative and curious by nature, I have recently become interested in web 3.0 and blockchain technologies, including the development of smart contracts on the Solana blockchain.\n      <br>\n      <br>\n      For this fourth year of work-study at CESI, and with the aim of validating my Master Manager in Architecture Applications of Information Systems (Bac +5 level), I joined the Wokine company development team as a PHP back-end developer."
+    "age": "29 years old",
+    "company": "Wokine",
+    "mobility": "Own a vehicle",
+    "text": "For my fourth year of work-study at CESI, and with the goal of completing my Master's degree in Manager in Architecture Applications of Information Systems (Bac +5 level), I joined the development team at Wokine as a PHP back-end developer."
   }
 }

@@ -1,10 +1,9 @@
 {
-  "title": "mes occupations",
-  "quote": "(je suis de nature curieux)",
+  "title": "My Interests",
+  "quote": "(I'm naturally curious)",
   "content": [
-    "course à pied",
-    "astronomie - aérospatial",
-    "aquariophilie - biophilie",
-    "web 3.0 - blockchain"
+    "Running",
+    "Astronomy - Aerospace",
+    "Aquarium keeping - Biophilia"
   ]
 }

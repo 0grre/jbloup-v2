@@ -1,54 +1,55 @@
+
 {
-  "title": "mes expériences",
-  "quote": "(un parcours atypique)",
+  "title": "My Work Experience",
+  "quote": "(an unconventional journey)",
   "content": [
     {
       "logo": "media/logos/wokine.jpeg",
-      "job": "Développeur Backend PHP",
-      "date": "2021 / aujourd'hui",
+      "job": "PHP Backend Developer",
+      "date": "2021 / Present",
       "employer": "Wokine",
       "localization": "Lille"
     },
     {
       "logo": "media/logos/boresa.jpeg",
-      "job": "Consultant / Développeur",
+      "job": "Consultant / Developer",
       "date": "2019 / 2021",
       "employer": "Boresa",
       "localization": "Arras"
     },
     {
       "logo": "media/logos/cef.jpeg",
-      "job": "Commercial Sédentaire",
+      "job": "Inside Sales Representative",
       "date": "2019 / 2019",
       "employer": "Centre Européen de Formation",
-      "localization": "Villeneuve d’ascq"
+      "localization": "Villeneuve d’Ascq"
     },
     {
       "logo": "media/logos/sncf.jpeg",
-      "job": "Conducteur de train",
+      "job": "Train Operator",
       "date": "2018 / 2019",
       "employer": "SNCF Mobilité",
       "localization": "Paris"
     },
     {
       "logo": "media/logos/jussieu.jpeg",
-      "job": "Auxiliaire Ambulancier",
+      "job": "Ambulance Attendant",
       "date": "2017 / 2018",
       "employer": "Cachera Jussieu Secours",
       "localization": "Marquette en Ostrevent"
     },
     {
       "logo": "media/logos/laposte.jpeg",
-      "job": "Livreur / Facteur",
+      "job": "Delivery Person / Postal Worker",
       "date": "2016 / 2017",
       "employer": "La Poste",
       "localization": "Hénin Beaumont"
     },
     {
       "logo": "media/logos/wingles.jpg",
-      "job": "Animateur / Directeur",
+      "job": "Animator / Director",
       "date": "2011 / 2016",
-      "employer": "Commune de Wingles",
+      "employer": "Wingles Municipality",
       "localization": "Wingles"
     }
   ]

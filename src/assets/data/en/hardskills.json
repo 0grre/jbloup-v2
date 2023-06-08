@@ -1,33 +1,33 @@
 {
-  "title": "mes compétences",
-  "quote": "(niveau, intermédiaire à débutant)",
+  "title": "my skills",
+  "quote": "(intermediate to beginner level)",
   "content": [
     {
-      "title": "langages",
+      "title": "languages",
       "list": [
         {
           "logo": "media/languages/php.png",
           "name": "PHP",
           "color": "text-php",
-          "lvl": "confirmé"
+          "lvl": "advanced"
         },
         {
           "logo": "media/languages/javascript.png",
           "name": "javascript",
           "color": "text-javascript",
-          "lvl": "intermédiaire"
+          "lvl": "intermediate"
         },
         {
           "logo": "media/languages/java.png",
           "name": "java",
-          "color": "text-ja",
-          "lvl": "débutant"
+          "color": "text-java",
+          "lvl": "beginner"
         },
         {
           "logo": "media/languages/rust.png",
           "name": "rust",
           "color": "",
-          "lvl": "débutant"
+          "lvl": "beginner"
         }
       ]
     },
@@ -38,54 +38,54 @@
           "logo": "media/frameworks/laravel.png",
           "name": "laravel",
           "color": "text-laravel",
-          "lvl": "confirmé"
+          "lvl": "advanced"
         },
         {
           "logo": "media/frameworks/tailwindcss.png",
           "name": "tailwind CSS",
           "color": "text-tailwindcss",
-          "lvl": "confirmé"
+          "lvl": "advanced"
         },
         {
           "logo": "media/frameworks/wordpress.png",
           "name": "wordpress",
           "color": "",
-          "lvl": "confirmé"
+          "lvl": "advanced"
         },
         {
           "logo": "media/frameworks/vue.png",
           "name": "vue",
           "color": "text-vue",
-          "lvl": "intermédiaire"
+          "lvl": "intermediate"
         }
       ]
     },
     {
-      "title": "outils",
+      "title": "tools",
       "list": [
         {
           "logo": "media/tools/docker.png",
           "name": "docker",
           "color": "text-docker",
-          "lvl": "confirmé"
+          "lvl": "advanced"
         },
         {
           "logo": "media/tools/macos.png",
-          "name": "mac OS",
+          "name": "macos OS",
           "color": "text-macos",
-          "lvl": "confirmé"
+          "lvl": "advanced"
         },
         {
           "logo": "media/tools/git.png",
           "name": "git",
           "color": "text-git",
-          "lvl": "intermédaire"
+          "lvl": "intermediate"
         },
         {
           "logo": "media/tools/kubernetes.png",
           "name": "kubernetes",
           "color": "text-kubernetes",
-          "lvl": "débutant"
+          "lvl": "beginner"
         }
       ]
     }

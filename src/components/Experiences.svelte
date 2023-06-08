@@ -2,8 +2,8 @@
     export let experiences;
 </script>
 
-<section id="experiences" class="border-b border-dashed border-white py-12">
-    <h2 class="text-3xl font-bold text-right mb-6 capitalize font-open">{ experiences.title + ' ' }<span
+<section id="experiences" class="border-b border-dashed border-fluo py-12">
+    <h2 class="text-3xl text-right mb-6 capitalize">{ experiences.title + ' ' }<span
             class="text-xs lowercase">{ experiences.quote }</span></h2>
     <div class="flex flex-col gap-4">
         {#each experiences.content as xp}
@@ -16,8 +16,8 @@
                     <div class="flex md:justify-end md:col-span-2 md:row-start-1">
                         <div class="badge badge-outline">{ xp.date }</div>
                     </div>
-                    <h3 class="text-green-400 md:col-span-1 md:row-start-2">{ xp.employer }</h3>
-                    <h4 class="text-red-500 flex md:justify-end md:col-span-2 md:row-start-2">{ xp.localization }</h4>
+                    <h3 class="md:col-span-1 md:row-start-2">{ xp.employer }</h3>
+                    <h4 class="flex md:justify-end md:col-span-2 md:row-start-2">{ xp.localization }</h4>
                 </div>
             </div>
         {/each}

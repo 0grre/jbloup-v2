@@ -6,14 +6,8 @@ module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     colors:{
-      transparent: 'transparent',
-      current: 'currentColor',
       black: colors.black,
       white: colors.white,
-      green: colors.green,
-      purple: colors.purple,
-      blue: colors.blue,
-      red: colors.red,
       'laravel': '#f54d39',
       'tailwindcss': '#38acc3',
       'vue': '#42b985',
@@ -25,14 +19,7 @@ module.exports = {
       'kubernetes': '#2876be',
       'macos': '#ebeef1',
     },
-    extend: {
-      fontFamily: {
-        open: ["Open Sans", ...defaultTheme.fontFamily.sans],
-      },
-      backgroundImage: {
-        'hero-pattern': "url('/src/assets/media/grid.jpg')",
-      }
-    },
+    extend: {},
   },
   plugins: [require("daisyui")],
 }
